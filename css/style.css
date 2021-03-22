@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  *, *::after, *::before{
+    box-sizing: border-box;
+  }
+
+  header {
+    height: 10rem;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+ header a {
+   margin: 2rem;
+   
+ }
+
+ header a img {
+   border-radius: 20px;
+   border: 3px solid black;
+   height: 5rem;
+ }
+  
