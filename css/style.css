@@ -16,8 +16,7 @@
 
  header a {
    margin: 2rem;
-   
- }
+  }
 
  header a img {
    border-radius: 20px;
@@ -25,3 +24,18 @@
    height: 5rem;
  }
   
+ footer{
+  height: 10rem;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ footer small a {
+  margin: 3rem;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+ }
